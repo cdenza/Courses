@@ -1,0 +1,61 @@
+
+body {
+    background-color: pink;
+    color: #ccffff;
+    font-family: Tahoma;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-image: url(https://wallpapercave.com/wp/JvScVBG.jpg)
+  }
+  
+  h1, .description {
+    text-align: center;
+    margin: 0px;
+  }
+  
+  .description {
+    margin-bottom: 35px;
+  }
+  
+  .mainpage {
+    background-color: brown;
+    width: 70%;
+    margin: auto;
+    padding: 1em;
+  }
+  
+  label {
+    display: block;
+    
+  }
+  
+  .textbox {
+    margin-top: 5px;
+    margin-bottom:25px;
+  }
+  
+  input.textbox {
+    display:block;
+    margin-top: 5px;
+    margin-bottom:25px;
+    width: 100%;
+  }
+  
+  div label {
+    font-weight: bold;
+  }
+  
+  div div p  {
+    font-weight: bold;
+    font-size: 24;
+    margin-bottom: 10px;
+  }
+  
+  .pick-one {
+    margin-top: -20px;
+  }
+  
+  .scoopcount {
+    width: 100px;
+  }
+  

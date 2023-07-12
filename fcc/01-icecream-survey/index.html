@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>How Creamy is your Ice?</title>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class='mainpage'>
+      <h1 id="title">Submit your cream level</h1>
+      <p id="description" class="description">Answer questions about your ice cream experience</p>
+
+      <div>
+        <form id="survey-form">
+          
+          <label for="name" id="name-label">
+            Your Name: 
+            <input id="name" required type="text" placeholder="name" class="textbox">
+          </label>
+
+          <label for="email" id="email-label">
+            Your Email: 
+            <input id="email" required type="email" placeholder="email" class="textbox"></input>
+          </label>
+
+          <label for="number" id="number-label" class="textbox">
+            Ideal Scoop Count: 
+            <input id="number" required type="number" min="1" max="11" placeholder="range 1 - 11" class="scoopcount"></input>
+          </label>
+          
+          <label for="dropdown">
+            Flavor Choice: 
+            <select name="flavors" id="dropdown" class="textbox">
+              <option value="">--Please choose an option--</option>
+              <option value="vanilla">Vanilla</option>
+              <option value="chocolate">Chocolate</option>
+              <option value="strawberry">Strawberry</option>
+              <option value="parrot">Parrot</option>
+              <option value="mint-chip">Mint Chip</option>
+              <option value="silver">Silver</option>
+          </select>
+          </label>
+          <div class="pick-one textbox">
+            <p>Pick only one: </p>
+            <label for="cookie-nubs">
+              Cookie Nubs 
+              <input id="cookie-nubs" type="radio" name="topping" value="cookie-nubs">
+            </label>    
+
+            <label for="fruit-flecks">
+              Fruit Flecks 
+              <input id="fruit-flecks" type="radio" name="topping" value="fruit-flecks">
+            </label>   
+
+            <label for="coconut-shavings">
+              Coconut Shavings 
+              <input id="coconut-shavings" type="radio" name="topping" value="coconut-shavings">
+            </label>
+
+            <label for="gummi-bears">
+              Gummi Bears 
+              <input id="gummi-bears" type="radio" name="topping" value="gummi-bears">
+            </label>
+          </div>
+
+          <div class="pick-all textbox">
+            <p>Pick your favorite places to eat: </p>
+            <label for="parlor">
+              Parlor 
+              <input id="parlor" type="checkbox" name="places" value="parlor">
+            </label>
+
+            <label for="gas-station">
+              Gas Station 
+              <input id="gas-station" type="checkbox" name="places" value="gas-station">
+            </label>
+
+            <label for="home">
+              Home 
+              <input id="home" type="checkbox" name="places" value="home">
+            </label>
+
+            <label for="restaurant">
+              Restaurant
+              <input id="restaurant" type="checkbox" name="places" value="restaurant">
+            </label>
+
+            <label for="zoo">
+              Zoo 
+              <input id="zoo" type="checkbox" name="places" value="zoo">
+            </label>
+
+            <label for="beach">
+              Beach 
+              <input id="beach" type="checkbox" name="places" value="beach">
+            </label>
+          </div>
+
+          <label for="pledge" class='textbox'>
+            
+            <textarea 
+              id="pledge" 
+              type="text" 
+              rows="3" 
+              cols="50%" 
+              placeholder="add a prayer you recice before ice creaming."></textarea> 
+          </label>
+
+          <label for ="button" class="textbox">
+            Submit:
+            <button id="submit">Submit</button>
+
+
+        </form>
+
+      </div>
+    
+    </div>
+  </body>
